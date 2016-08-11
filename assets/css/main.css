@@ -1,3 +1,6 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
 .sublinhado {
   border-bottom: 2px solid #1EC0FF; }
 
@@ -7,8 +10,7 @@
   margin: 0 auto; }
 
 h1 {
-  text-transform: uppercase;
-  font-family: "Open Sans", sans-serif; }
+  text-transform: uppercase; }
 
 .header {
   text-align: center;
@@ -62,5 +64,23 @@ h1 {
   margin: 0 auto; }
   .about .social li {
     display: inline-block; }
+    .about .social li a:hover .facebook-btn {
+      fill: #3b5998;
+      transition: ease-in-out 0.3s; }
+    .about .social li a:hover .dribbble-btn {
+      fill: #ed6a9d;
+      transition: ease-in-out 0.3s; }
+    .about .social li a:hover .behance-btn {
+      fill: #0090ff;
+      transition: ease-in-out 0.3s; }
+    .about .social li a:hover .linkedin-btn {
+      fill: #0077b5;
+      transition: ease-in-out 0.3s; }
   .about .social li:not(:last-child) {
     padding-right: 50px; }
+.about p {
+  text-align: center;
+  width: 900px;
+  display: block;
+  margin: 35px auto;
+  color: #787878; }

@@ -2,6 +2,13 @@ $white: #FFFFFF
 $main: #0080FF
 $highlight: #1EC0FF
 $main-text: #787878
+$linkedin: #0077b5
+$facebook: #3b5998
+$dribbble: #ed6a9d
+$behance: #0090ff
+
+body
+  font-family: 'Open Sans', sans-serif
 
 .sublinhado
   border-bottom: 2px solid $highlight
@@ -14,7 +21,7 @@ $main-text: #787878
 
 h1
   text-transform: uppercase
-  font-family: 'Open Sans', sans-serif
+
 
 .header
   text-align: center
@@ -71,5 +78,26 @@ h1
     margin: 0 auto
     li
       display:  inline-block
+      a
+        &:hover
+          .facebook-btn
+            fill: $facebook
+            transition: ease-in-out .3s
+          .dribbble-btn
+            fill: $dribbble
+            transition: ease-in-out .3s
+          .behance-btn
+            fill: $behance
+            transition: ease-in-out .3s
+          .linkedin-btn
+            fill: $linkedin
+            transition: ease-in-out .3s
+
     li:not(:last-child)
       padding-right: 50px
+  p
+    text-align: center
+    width: 900px
+    display: block
+    margin: 35px auto
+    color: $main-text
