@@ -21,7 +21,10 @@ body {
   border: none;
   background: #1EC0FF;
   color: #FFFFFF;
-  margin-right: 70px; }
+  margin-right: 70px;
+  transition: background-color ease-in-out 0.5s; }
+  .btn-highlight:hover {
+    background: #1EACFF; }
 
 h1 {
   text-transform: uppercase; }
@@ -107,5 +110,111 @@ h1 {
     text-decoration: none;
     display: inline-block; }
 
-.placeholder {
-  height: 700px; }
+.work {
+  text-align: center;
+  height: 740px;
+  background-image: url("../images/pattern.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #0E0D11;
+  background-padding-bottom: 70px; }
+  .work h1 {
+    padding-top: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2.25em; }
+  .work .center-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 60px; }
+    .work .center-content .row .work-thumbnail {
+      width: 200px;
+      height: 200px;
+      background: coral;
+      display: inline-block;
+      margin: 10px 10px; }
+
+.contato {
+  margin: 0;
+  height: 580px;
+  background-color: #0080FF;
+  color: #FFFFFF; }
+  .contato h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 70px; }
+  .contato .center-content {
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 1200px;
+    height: 340px; }
+    .contato .center-content:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .contato .center-content .icons {
+      border-right: 1px solid #FFFFFF;
+      height: 200px;
+      text-align: center;
+      display: inline-block;
+      padding: 70px;
+      float: left; }
+      .contato .center-content .icons .mail {
+        margin: -10px 0 50px 0; }
+    .contato .center-content .form {
+      float: left; }
+      .contato .center-content .form form {
+        padding: 70px;
+        text-align: center; }
+        .contato .center-content .form form .col-one {
+          float: left; }
+          .contato .center-content .form form .col-one input {
+            display: block;
+            border: none;
+            background: rgba(1, 10, 20, 0.2);
+            color: #FFFFFF;
+            width: 280px;
+            height: 55px;
+            padding: 0 15px; }
+            .contato .center-content .form form .col-one input::-webkit-input-placeholder {
+              color: #FFFFFF; }
+            .contato .center-content .form form .col-one input:-moz-placeholder {
+              color: #FFFFFF; }
+            .contato .center-content .form form .col-one input::-moz-placeholder {
+              color: #FFFFFF; }
+            .contato .center-content .form form .col-one input:-ms-input-placeholder {
+              color: #FFFFFF; }
+          .contato .center-content .form form .col-one input[type="text"] {
+            margin-bottom: 45px; }
+        .contato .center-content .form form .col-two {
+          float: left;
+          margin-left: 20px; }
+          .contato .center-content .form form .col-two textarea {
+            width: 330px;
+            height: 125px;
+            border: none;
+            background: rgba(1, 10, 20, 0.2);
+            color: #FFFFFF;
+            padding: 15px 15px; }
+            .contato .center-content .form form .col-two textarea::-webkit-input-placeholder {
+              color: #FFFFFF; }
+            .contato .center-content .form form .col-two textarea:-moz-placeholder {
+              color: #FFFFFF; }
+            .contato .center-content .form form .col-two textarea::-moz-placeholder {
+              color: #FFFFFF; }
+            .contato .center-content .form form .col-two textarea:-ms-input-placeholder {
+              color: #FFFFFF; }
+        .contato .center-content .form form .btn-submit {
+          color: #787878;
+          background: #FFFFFF;
+          border-radius: 5px;
+          width: 175px;
+          height: 40px;
+          border: none;
+          margin-top: 40px; }
+
+footer {
+  text-align: center;
+  color: #787878;
+  font-weight: 300;
+  font-size: 0.75em; }
